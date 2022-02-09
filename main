@@ -52,7 +52,7 @@ C_saraksts[0].add_account(account("USD",3000))
 
 C_saraksts[1].add_account(account("RUB",40))
 
-C_saraksts[2].add_account(account("EUR"))
+C_saraksts[0].add_account(account("EUR"))
 
 for c in C_saraksts:
     c.print_accounts()
